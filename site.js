@@ -18,7 +18,6 @@ jQuery(document).ready(function () {
 3 -- 4
 4 -- 6
 4 -- 5
-4 -- 6
 6 -- 7
 1 -- 13
 13 -- 10
