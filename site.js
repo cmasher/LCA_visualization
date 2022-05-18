@@ -18,6 +18,7 @@ jQuery(document).ready(function () {
 3 -- 4
 4 -- 6
 4 -- 5
+4 -- 6
 6 -- 7
 1 -- 13
 13 -- 10
@@ -27,7 +28,9 @@ jQuery(document).ready(function () {
 7 -- 15
 15 -- 16
 14 -- 17
-17 -- 18`;
+17 -- 18
+16 -- 19
+19 -- 20`;
     graph_data.val(defaultGraph);
     node_1.val(18);
     node_2.val(20);
