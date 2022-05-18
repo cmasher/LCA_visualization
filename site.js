@@ -29,8 +29,8 @@ jQuery(document).ready(function () {
 14 -- 17
 17 -- 18`;
     graph_data.val(defaultGraph);
-    node_1.val(10);
-    node_2.val(15);
+    node_1.val(18);
+    node_2.val(20);
 
     // задаем обработчик события для кнопки Start
     start_btn.click(Start);
