@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<title>Binary Lifting Technique</title>
+	</head>
+	
+	<body>
+		<h3>LCA in a tree using Binary Lifting Technique</h3>
+		Assuming vertices are numerated from 1 to n, and 1 is a root of the tree.<br>
+		Graph data consist of list of edges in format v -- u where v - is parent of u. <br>
+		Enter graph data below:<br>
+
+		<textarea id="graph_data" rows="15"></textarea><br><br>
+		Enter two nodes to find the Lowest Common Ancestor:<br>
+		node #1:<textarea id="node_1"></textarea><br>
+		node #2:<textarea id="node_2"></textarea><br><br>
+
+		<button id="startPreproc_btn">Animate Preprocessing</button>
+		<button id="start_btn">Animate finding LCA</button>
+		<div>
+			<textarea id="preprocessLog_div" rows="30" cols="50" style="float:left"></textarea>
+			<div id="graph_svg_div"></div>
+		</div>
+		
+		
+
+		<script language="javascript" type="text/javascript" src="./jquery.min.js"> </script>
+		<script language="javascript" type="text/javascript" src="./viz.js"></script>
+		<script language="javascript" type="text/javascript" src="./site.js"></script>
+		<script language="javascript" type="text/javascript" src="./geek_impl.js"></script>
+	</body>
+</html>
